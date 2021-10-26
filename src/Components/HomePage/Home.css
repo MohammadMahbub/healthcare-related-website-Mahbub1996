@@ -6,7 +6,7 @@
 }
 
 .banner-area .banner-item p {
-    color: blue;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     font-size: 19px;
 }
@@ -17,11 +17,16 @@
     font-size: 19px;
     margin: 25px 0;
 }
-
+/* .services{
+    border: 1px solid red;
+} */
 /* welcome area css start */
 .service-icon i{
     font-size: 95px;
-    color: #14D1C9;
+    color: #f59191;
+    box-shadow: 2px 0px 5px 5px rgb(148, 73, 73);
+    border-radius: 20px;
+    background-color: rgb(88, 88, 88);
 }
 
 /* welcome area css ends */
@@ -35,10 +40,15 @@
 }
 .testimonials .card {
     border-color: transparent;
+    background-color: rgb(209, 145, 145);
+    border-radius: 15px;
+    
 }
 .testimonials .card .card-footer {
     border: 0;
     background: transparent;
+    box-shadow: 0px 1px 1px 3px rgb(228, 221, 221);
+    border-radius: 10px;
 }
 
 

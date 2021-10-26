@@ -1,5 +1,5 @@
 import React from 'react';
-import chair from '../../images/chair.png'
+import chair from '../../images/dr1.jpg'
 import './Home.css'
 import {
     Link
@@ -13,7 +13,7 @@ const Banner = () => {
                 <div className="row d-flex justify-content-center align-items-center mt-3" >
                     <div className="col-md-6 col-sm-6 col-12 offset-sm-0">
                         <div className="banner-item">
-                            <h1 style={{ color: '#3A4256' }}>Your New <span style={{ color: "#FF9800" }}>Smile</span> <br /> Starts Here</h1>
+                            <h1 style={{ color: '#3A4256' }}>Your New <span style={{ color: "red" }}>Smile</span> <br /> Starts Here</h1>
                             <p>
                                 Health care (also health-care or healthcare) is the maintenance or improvement of health via the prevention, diagnosis, treatment, recovery, or cure of disease, illness, injury, and other physical and mental impairments
                             </p>

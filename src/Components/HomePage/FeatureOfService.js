@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../images/doctor-checking-one-her-patients.jpg'
 
 const FeatureOfService = () => {
     return (
@@ -6,13 +7,13 @@ const FeatureOfService = () => {
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-md-5">
                     <div className="feature-img">
-                        <img src="https://i.postimg.cc/DwJhdsBC/dental-Care.png" className="img-fluid" alt="" />
+                        <img src={image} className="img-fluid" alt="" />
                     </div>
                 </div>
                 <div className="col-md-7">
                     <div className="feature-description ">
-                        <h3 className="mb-3">Exceptional Dental <br />
-                            Care, On your Terms
+                        <h3 className="mb-3">Exceptional  <br />
+                            Caring, On your Terms
                         </h3>
                         <p style={{ fontSize: "19px", textAlign: "justify", lineHeight: "29px" }}>
                             Many Americans today enjoy excellent oral health and are keeping their natural teeth throughout their lives. But this is not the case for everyone. Cavities are still the most prevalent chronic disease of childhood.

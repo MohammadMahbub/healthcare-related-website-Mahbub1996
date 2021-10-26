@@ -29,9 +29,9 @@ const Header = () => {
     // const currentRoute = useHistory().location.pathname.toLowerCase();
     return (
         <div className="sticky-top">
-            <Navbar bg="dark" collapseOnSelect expand="lg" >
+            <Navbar bg="danger" collapseOnSelect expand="lg" >
                 <Container>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ fontSize: "25px", color: "black", background: "#fff" }} className="ms-auto" > <FontAwesomeIcon icon={faBars} /> </Navbar.Toggle>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ fontSize: "25px", color: "black", background: "dark" }} className="ms-auto" > <FontAwesomeIcon icon={faBars} /> </Navbar.Toggle>
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav style={{ textAlign: "center" }} className="ms-auto">
                             {
@@ -41,7 +41,7 @@ const Header = () => {
                                     key={index}
                                 >
                                     <Link to={data.link} style={{
-                                        color: "#fff", textDecoration: "none"
+                                        color: "white", textDecoration: "none"
                                     }}
                                         className="nav-link pl-4 pr-4"
                                     > {data.name} </Link>
@@ -67,7 +67,7 @@ const Header = () => {
                                     className="nav-link pl-4 pr-4"
                                 >
                                     <Link to="/patient-login" style={{
-                                        color: "#fff", textDecoration: "none"
+                                        color: "white", textDecoration: "none"
                                     }}
                                         className="nav-link pl-4 pr-4"
                                     > Login</Link>
