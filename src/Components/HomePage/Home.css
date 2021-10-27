@@ -4,7 +4,9 @@
     text-align: justify;
     font-family: "PT Sans Narrow", sans-serif;
 }
-
+.carousel-item img{
+    height: 85vh;
+}
 .banner-area .banner-item p {
     color: rgb(0, 0, 0);
     font-weight: 500;
@@ -51,13 +53,13 @@
     border-radius: 10px;
 }
 
-
 /* testimonial area css ends */
-
-
 
 @media (max-width: 575px) {
     .banner-area .banner-img img {
         margin-top: 1rem;
+    }
+    .carousel-item img{
+        height: 35vh;
     }
 }

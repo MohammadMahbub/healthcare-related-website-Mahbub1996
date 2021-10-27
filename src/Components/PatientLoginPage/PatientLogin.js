@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
     submit: {
-        backgroundColor: "#11CFE0",
+        backgroundColor: "#f36c32",
         border: "none",
         padding: "9px 5px",
         color: "#fff"
@@ -168,7 +168,7 @@ const PatientLogin = () => {
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-5 col-sm-12 col-12">
+                        <div className="col-md-6 col-sm-12 offset-md-3 col-12">
                             <div className="login-area">
                                 <div className={classes.container}>
                                     <form
@@ -260,7 +260,11 @@ const PatientLogin = () => {
 
                                     </div>
                                 </div>
-                                <div className="my-3">
+                                
+                            </div>
+                            
+                        </div>
+                        <div className="my-3 col-md-6 offset-md-3">
                                     <button
                                         className={`${classes.thirdPartyLoginBtn} col-md-12 col-sm-12 col-12 btn btn-light`}
                                         onClick={handleGoogleSignIn}
@@ -269,13 +273,6 @@ const PatientLogin = () => {
                                         Continue with Google
                                     </button>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 offset-md-1">
-                            <div className="login-bg d-md-flex d-sm-none d-none">
-                                <img src={loginBg} alt="" />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
