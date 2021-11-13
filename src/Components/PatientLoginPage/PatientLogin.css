@@ -16,6 +16,12 @@
     width: auto;
     height: 555px;
 }
+.or{
+    color: white;
+}
+.main-login{
+    background-color: #00064eab;
+}
 
 @media(max-width: 575px){
     .login-area{

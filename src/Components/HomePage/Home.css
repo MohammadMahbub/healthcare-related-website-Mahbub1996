@@ -1,8 +1,20 @@
 /* banner area css start */
-
 .banner-area {
+    background-image: url('../../images/Images.1/bg/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
     text-align: justify;
     font-family: "PT Sans Narrow", sans-serif;
+}
+
+.banner-item{
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+.banner-item p{
+    width: 500px;
 }
 
 .banner-area .banner-item p {
@@ -11,7 +23,54 @@
     font-size: 19px;
 }
 
+
+/* feature or services */
+.hospital-content{
+    font-weight: bold;
+    font-size: 32px;
+    color: blue;
+}
+
 /* banner area css ends  */
+
+/* experiance start  */
+.experiance{
+    color: blue;
+}
+
+.main-div{
+    background-color: rgba(243, 243, 243, 0.534);
+    border-radius: 10px;
+}
+
+.main-card{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 55px; 
+}
+.svg-logo{
+    width: 80px;
+    color: indigo;
+}
+
+.comment-text{
+    color: red;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.frist-card{
+    
+    margin-bottom: 10px;
+}
+
+
 
 .welcome-text p {
     font-size: 19px;

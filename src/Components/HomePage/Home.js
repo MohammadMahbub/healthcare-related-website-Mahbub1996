@@ -1,16 +1,23 @@
 import React from 'react';
 import Banner from './Banner';
+import Experiance from './Experiance';
 import FeatureOfService from './FeatureOfService';
-import Testimonial from './Testimonial';
+import MyServices from './MyServices';
+import OurDoctorTeam from './OurDoctorTeam';
+import OurService from './OurService';
 import Welcome from './Welcome';
 
 const Home = () => {
     return (
         <div className="container-fluid">
             <Banner />
-            <Welcome />
             <FeatureOfService />
-            <Testimonial />
+            <Experiance/>
+            <OurService/>
+            <MyServices/>
+            <Welcome />
+            <OurDoctorTeam/>
+            
         </div>
     );
 };

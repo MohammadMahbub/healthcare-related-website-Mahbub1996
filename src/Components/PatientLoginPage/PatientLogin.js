@@ -165,7 +165,7 @@ const PatientLogin = () => {
 
     return (
         <Layout>
-            <div>
+            <div className="main-login">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5 col-sm-12 col-12">
@@ -253,7 +253,7 @@ const PatientLogin = () => {
                                     <div className={`${classes.dash} mt-3`}>
 
                                     </div>
-                                    <div className="mt-1">
+                                    <div className="mt-1 or">
                                         or
                                     </div>
                                     <div className={`${classes.dash} mt-3`}>
@@ -273,7 +273,7 @@ const PatientLogin = () => {
                         </div>
                         <div className="col-md-6 offset-md-1">
                             <div className="login-bg d-md-flex d-sm-none d-none">
-                                <img src={loginBg} alt="" />
+                                {/* <img src={loginBg} alt="" /> */}
                             </div>
                         </div>
                     </div>
