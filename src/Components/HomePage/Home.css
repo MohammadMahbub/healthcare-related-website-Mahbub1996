@@ -7,6 +7,7 @@
     text-align: justify;
     font-family: "PT Sans Narrow", sans-serif;
 }
+<<<<<<< HEAD
 
 .banner-item{
     margin-left: 80px;
@@ -17,6 +18,11 @@
     width: 500px;
 }
 
+=======
+.carousel-item img{
+    height: 85vh;
+}
+>>>>>>> b1a3a56e8cbabf5fd85a1f8e495ebed519faa408
 .banner-area .banner-item p {
     color: rgb(0, 0, 0);
     font-weight: 500;
@@ -110,13 +116,13 @@
     border-radius: 10px;
 }
 
-
 /* testimonial area css ends */
-
-
 
 @media (max-width: 575px) {
     .banner-area .banner-img img {
         margin-top: 1rem;
+    }
+    .carousel-item img{
+        height: 35vh;
     }
 }

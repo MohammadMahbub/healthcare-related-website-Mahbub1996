@@ -40,7 +40,7 @@ const Footer = () => {
     return (
         <footer className="footer-area clear-both">
             <div className="container">
-                <div className="row py-5">
+                <div className="row py-3">
                     <FooterCol key={1} menuItems={noNamed}></FooterCol>
                     <FooterCol key={2} menuTitle={'Usefull Links'} menuItems={services}></FooterCol>
                     <FooterCol key={3} menuTitle={"Services"} menuItems={oralHealth}></FooterCol>
@@ -67,10 +67,17 @@ const Footer = () => {
                             <a className="button-style" href="tel:01771225965">+123522455424 </a>
                         </div>
                     </FooterCol>
+                    <div className="text-center  pt-5">
+                        <p>&copy; {(new Date()).getFullYear()} All rights reserved</p>
+                    </div>
                 </div>
+<<<<<<< HEAD
                 <div className="copyRight text-center">
                     <p>&copy; {(new Date()).getFullYear()} All rights reserved by Mahbub</p>
                 </div>
+=======
+
+>>>>>>> b1a3a56e8cbabf5fd85a1f8e495ebed519faa408
             </div>
         </footer>
     );
