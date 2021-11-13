@@ -273,7 +273,6 @@ const PatientLogin = () => {
                                         Continue with Google
                                     </button>
                                 </div>
-<<<<<<< HEAD
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-1">
@@ -281,11 +280,9 @@ const PatientLogin = () => {
                                 {/* <img src={loginBg} alt="" /> */}
                             </div>
                         </div>
-=======
->>>>>>> b1a3a56e8cbabf5fd85a1f8e495ebed519faa408
                     </div>
-                </div>
-            </div>
+                
+            
         </Layout>
     );
 };

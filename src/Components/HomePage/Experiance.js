@@ -4,7 +4,7 @@ import './Home.css'
 const Experiance = () => {
     return (
         
-        <div class="main-div">
+        <div class="main-div container">
             <h1 class="experiance">| Our Experiance...</h1>
         <div class="row row-cols-1 row-cols-md-4 g-4 ">
                         

@@ -71,13 +71,9 @@ const Footer = () => {
                         <p>&copy; {(new Date()).getFullYear()} All rights reserved</p>
                     </div>
                 </div>
-<<<<<<< HEAD
                 <div className="copyRight text-center">
                     <p>&copy; {(new Date()).getFullYear()} All rights reserved by Mahbub</p>
                 </div>
-=======
-
->>>>>>> b1a3a56e8cbabf5fd85a1f8e495ebed519faa408
             </div>
         </footer>
     );
